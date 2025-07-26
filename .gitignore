@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.egg-info/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Docker
+*.tar
+
+# Ignore input/output contents but keep folders
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
+
+
+
